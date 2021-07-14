@@ -1,197 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="favicon.ico">
 
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Khadar Abdilahi</a>
-                </div>
+    <title>SurPath Hub</title>
+</head>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Khadar Abdilahi</span><br> Web Designer</h1>
-
-                    <a href="#" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">    
-                    <img src="assets/img/perfil.png" alt="">
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Khadar</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Khadar Abdilahi </p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav-brand">
+                <a href="#"><img src="favicon.ico" alt="brand-img" height="34px" width="34px"></a>
+                <span class="white-line">|</span> 
+                <a href="#" class="nav__logo">SurPath Hub</a>
             </div>
-            <p>&#169; 2020 copyright all right reserved</p>
-        </footer>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#join" class="nav__link">Join</a></li>
+                    <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main" id="main">
+
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="loader-container">
+                
+         
+                <div id="particles-background" class="vertical-centered-box"></div>
+                <div id="particles-foreground" class="vertical-centered-box"></div>
+                <div class="vertical-centered-box">
+
+                        
+                      <div class="content">
+                    </div>
+                    
+                </div>
+                
+            </div>
+          
+        </div>
+        <div class="home__container bd-grid">
+                       
+            <div class="home__img">
+                <iframe src="https://www.youtube.com/embed/ZCmqeOHhjzk" allowfullscreen></iframe>
+                
+            </div>
+
+            <div class="home__data" >
+
+                <div class="console">
+
+ <h1 class="home__title"> SurPath Hub</h1>
+                <p class="home__description">Our aim is to put every Filipino student, career shifter, or aspiring developer into an
+                    open-source environment regardless of their position in life and everyone will receive equal treatment.</p>
+
+                </div>
+               
+            </div>
+        
+        </div>
+            <script src="assets/js/loader.min.js"></script>
+        </section>
+   
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/undraw_open_source_1qxw.svg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">SurPath Hub</h2>
+                    <span class="about__profession">Open Source Community</span>
+                    <p class="about__text">SurPath Hub is a welcoming and inclusive open-source community that helps every aspiring developer or career shifter in the Philippines. We are here to learn, get along with your passion, and know your expertise in the field. Members
+                        of the community will be able to get a chance to get swag, to join some events, to get access to the learning platforms and etc.</p>
+
+                    <div class="about__social">
+                        <a href="https://github.com/SurPathHub" target="_blank" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                        <a href="https://web.facebook.com/SurPathHub" target="_blank" class="about__social-icon"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.linkedin.com/company/surpathhub/" target="_blank" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://instagram.com/surpathhub" target="_blank" class="about__social-icon"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://twitter.com/SurPathHub" target="_blank" class="about__social-icon"><i class='bx bxl-twitter' ></i></a>
+                        <a href="https://www.youtube.com/channel/UCjA75ni_WO_AoyWsLxnnwjA" target="_blank" class="about__social-icon"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+           
+            </div>
+        </section>
+
+        <!-- ====== PROJECTS =======-->
+        <section class="projects-section">
+            <h2 class="section-title">Project Highlights</h2>
+
+            <section class="cards section" id="project">
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+                <div class="card">
+                    <div class="card__image" style="background-image: url('./assets/img/starter-kit.png')"></div>
+                    <div class="content">
+                        <div class="card__title">Starter Kit</div>
+                        <div class="card__snippet">Begin your coding career from here. Even if you drop out of college because of financial problems or even you have zero knowledge, we will help you to grow and get you into the tech industry.
+                        </div>
+                        <a class="card__button" href="https://github.com/SurPathHub/starter-kit" target="_blank">view</a>
+                    </div>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                </div>
+
+                <div class="card">
+                    <div class="card__image" style="background-image: url('./assets/img/hecktoberfest-ph.png')"></div>
+                    <div class="content">
+                        <div class="card__title">Hacktoberfest Philippines</div>
+                        <div class="card__snippet">This repository will help you practice for the incoming Hacktoberfest—a month-long celebration of open-source software.
+                        </div>
+                        <a class="card__button" href="https://github.com/SurPathHub/hacktoberfest-philippines" target="_blank">view</a>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card__image" style="background-image: url('./assets/img/github-profile-ph.png')"></div>
+                    <div class="content">
+                        <div class="card__title">GitHub Profile PH</div>
+                        <div class="card__snippet">This repository contains list of GitHub profiles that you can use for inspiration. Feel free to add your awesome GitHub profile
+                        </div>
+                        <a class="card__button" href="https://github.com/SurPathHub/github-profile-ph" target="_blank">view</a>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card__image" style="background-image: url('./assets/img/showcase-your-project.png')"></div>
+                    <div class="content">
+                        <div class="card__title">Showcase Your Project</div>
+                        <div class="card__snippet">This repository is for everyone who love to contribute to every project added here and help everyone to get green square.
+                        </div>
+                        <a class="card__button" href="https://github.com/SurPathHub/showcase-your-project" target="_blank">view</a>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card__image" style="background-image: url('./assets/img/SurPathHub.png')"></div>
+                    <div class="content">
+                        <div class="card__title">Community Website</div>
+                        <div class="card__snippet">This repository is dedicated to our community's website. Contributions are welcomed to make our website more community friendly.
+                        </div>
+                        <a class="card__button" href="https://github.com/SurPathHub/SurPathHub.github.io" target="_blank">view</a>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card__image" style="background-image: url('./assets/img/support.png')"></div>
+                    <div class="content">
+                        <div class="card__title">Support</div>
+                        <div class="card__snippet">
+                            Ask for Community Support / Know how to join in this community / More information about community
+                        </div>
+                        <a class="card__button" href="https://github.com/SurPathHub/support" target="_blank">view</a>
+                    </div>
+
+                </div>
+            </section>
+
+        </section>
+
+        <!-- ====== JOIN US =======-->
+        <section class="join section bd-grid" id="join">
+            <h2 class="section-title">Join Us</h2>
+            <div class="container-join-wrapper">
+                <div class="container-join">
+                    <div class="picture">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card__join">
+                        <h1>Get <span>insights</span> that help your development skills grow.</h1>
+                        <p>Only people from the Philippines can join our discord server</p>
+                        <ul class="details">
+                            <li><span>9+</span> Projects</li>
+                            <li><span>2</span> admin</li>
+                            <li><span>5</span> moderators</li>
+                        </ul>
+                        <ul class="btns">
+                            <li><a href="https://github.com/SurPathHub/support#issues" title="GitHub Organization" target="_blank"><i class='bx bxl-github join__button'></i></a></li>
+                            <li><a href="https://discord.com/invite/RATJsSGM9d" title="Discord Server" target="_blank"><i class='bx bxl-discord join__button'></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ====== TEAM =======-->
+        <section class="team section bd-grid" id="team">
+            <h2 class="section-title">Our Team</h2>
+
+            <div class="team__container">
+                <div class="team__card">
+                    <div class="team__content">
+                        <div class="team__img"><img src="./assets/img/vinzvinci.jpg" alt=""></div>
+                        <div class="team__text">
+                            <h3>Vincent Villafuerte</h3><br><span>Founder</span>
+                        </div>
+                    </div>
+
+                    <ul class="team__icon">
+                        <li>
+                            <a href="https://github.com/vinzvinci" target="_blank"><i class='bx bxl-github'></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/vinzvinci/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://twitter.com/vinzvinci" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/vinzvinci/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="team__card">
+                    <div class="team__content">
+                        <div class="team__img"><img src="./assets/img/tian.jpg" alt="tian"></div>
+                        <div class="team__text">
+                            <h3>Christian Igbaras</h3><br><span>Administrator</span>
+                        </div>
+                    </div>
+
+                    <ul class="team__icon">
+                        <li>
+                            <a href="https://github.com/Tiansing" target="_blank"><i class='bx bxl-github'></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/christian-igbaras-41b8a8203/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://twitter.com/christianigbar1" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.facebook.com/christian.igbaras/" target="_blank"><i class='bx bxl-facebook-square' ></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="team__card">
+                    <div class="team__content">
+                        <div class="team__img"><img src="./assets/img/xy.jpg" alt="xyrelljoi"></div>
+                        <div class="team__text">
+                            <h3>Xyrell Joi Quirona</h3><br><span>Moderator</span>
+                        </div>
+                    </div>
+
+                    <ul class="team__icon">
+                        <li>
+                            <a href="https://github.com/xyrelljoi/" target="_blank"><i class='bx bxl-github'></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/xyrell-joi-quirona-bb6b14136/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://twitter.com/seevera_xyrell" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/saireljoi/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="team__card">
+                    <div class="team__content">
+                        <div class="team__img"><img src="./assets/img/owl.png" alt=""></div>
+                        <div class="team__text">
+                            <h3>someones name</h3><br>
+                            <span>Moderator</span>
+                        </div>
+                    </div>
+
+                    <ul class="team__icon">
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="team__card">
+                    <div class="team__content">
+                        <div class="team__img"><img src="./assets/img/owl.png" alt=""></div>
+                        <div class="team__text">
+                            <h3>someones name</h3><br><span>Moderator</span>
+                        </div>
+                    </div>
+
+                    <ul class="team__icon">
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="team__card">
+                    <div class="team__content">
+                        <div class="team__img"><img src="./assets/img/owl.png" alt=""></div>
+                        <div class="team__text">
+                            <h3>someones name</h3><br><span>Moderator</span>
+                        </div>
+                    </div>
+
+                    <ul class="team__icon">
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer">
+        <div class="footer-left">
+            <p>In the tech industry & open-source world, it doesn't matter who you are, everyone will love you and will appreciate your idea even it is small. Even if you drop out of college because of financial problems or even you have zero knowledge, we will help you to grow and get you into the tech industry.</p>
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2>Follow Us</h2>
+                <ul class="box">
+                    <li><a href="https://github.com/SurPathHub" target="_blank">GitHub</a></li>
+                    <li><a href="https://web.facebook.com/SurPathHub/" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/company/surpathhub/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/SurPathHub" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCjA75ni_WO_AoyWsLxnnwjA" target="_blank">YouTube</a></li>
+                </ul>
+            </li>   
+            <li>
+                <h2>Other Projects</h2>
+                <ul class="box">
+                    <li><a href="https://github.com/SurPathHub/events">Events</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Location</h2>
+                <ul class="box">
+                    <li><a href="#">Philippines</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p class="footer__copy">&#169; 2021 SurPath Hub. All rights reserved</p>
+    </footer>
+    
+      <!-- //js code for console type animation -->
+
+    <script>
+        consoleText()
+    
+    function consoleText() {
+    var str = document.getElementsByClassName('console')[0].innerHTML.toString();
+    var i = 0;
+    document.getElementsByClassName('console')[0].innerHTML = "";
+    
+    setTimeout(function() {
+    var se = setInterval(function() {
+       i++;
+       document.getElementsByClassName('console')[0].innerHTML = str.slice(0, i) + "|";
+       if (i == str.length) {
+           clearInterval(se);
+           document.getElementsByClassName('console')[0].innerHTML = str;
+       }
+    }, 30);
+    },0);
+    }
+    </script>
+    
+    <!-- end of animation -->
+    
+    <!--===== SCROLL JS =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
